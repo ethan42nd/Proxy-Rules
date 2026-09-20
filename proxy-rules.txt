@@ -1,23 +1,10 @@
 ! ------------------------------------------------------------------
-! Proxy Rules - 白名单清单（AutoProxy 格式，适用于 SwitchyOmega / ZeroOmega）
-!
-! 模式：白名单。仅下列域名走代理，未命中任何规则的请求全部直连。
-! 在线地址（「导入在线规则列表」直接填这一行）：
-! https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt
-!
-! 语法（以本扩展实际解析器为准）：
-!   ||example.com           匹配 example.com 及其所有子域（本清单主要写法）
-!   |https://example.com/   匹配以该前缀开头的 URL（用于精确匹配单个主机）
-!   /正则/                   URL 正则匹配
-!   @@rule                  强制直连（本清单默认即直连，一般无需使用）
-!   ! 或 # 开头             注释行
-!
-! 重要：不要写结尾的 ^ 。SwitchyOmega / ZeroOmega 的 AutoProxy 解析器不识别 ^ ，
-! 它会把 ||example.com^ 变成主机通配 *.example.com^（要求主机名以 ^ 结尾），
-! 结果整条规则永远匹配不到、静默失效。正确写法就是 ||example.com 。
+! Proxy Rules - 白名单清单（AutoProxy 格式）
+! 仅下列域名走代理，未命中规则的请求全部直连。
+! 在线地址：https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt
 ! ------------------------------------------------------------------
 
-! ===== Google / YouTube：搜索、账号登录、视频与图片 CDN =====
+! Google / YouTube：搜索、账号登录、视频与图片 CDN
 ||google.com
 ||googleapis.com
 ||gstatic.com
@@ -32,19 +19,19 @@
 ||g.co
 ||goo.gl
 
-! ===== X (Twitter)：站点、短链与媒体 CDN =====
+! X（Twitter）：站点、短链与媒体 CDN
 ||x.com
 ||twitter.com
 ||t.co
 ||twimg.com
 ||pscp.tv
 
-! ===== GitHub =====
+! GitHub
 ||github.com
 ||githubusercontent.com
 ||githubassets.com
 ||github.io
 ||github.dev
 
-! ===== in.mesl.cloud：精确匹配（仅 https，不含任何子域） =====
+! in.mesl.cloud：精确匹配，仅 https，不含子域
 |https://in.mesl.cloud/*
