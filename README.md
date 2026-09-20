@@ -1,6 +1,6 @@
 # Proxy Rules
 
-一份 **白名单（清单）模式** 的 SwitchyOmega / ZeroOmega 在线规则列表：只有清单内的域名走代理，其余流量一律直连。
+一份 **黑名单模式** 的 SwitchyOmega / ZeroOmega 在线规则列表：清单内的域名走代理，其余流量直连。
 
 ## 在线规则地址
 
@@ -15,7 +15,7 @@ https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt
 - Google / YouTube：搜索、账号登录，以及视频与图片所需的 CDN
 - X（Twitter）：站点、短链与媒体 CDN
 - GitHub：含 raw、头像等 CDN 与 GitHub Pages
-- `in.mesl.cloud`：精确匹配，不含子域
+- `in.mesl.cloud`：单独匹配
 
 ## 导入步骤（SwitchyOmega / ZeroOmega 通用）
 
@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt
    - 列表格式：**AutoProxy**
    - 规则列表网址：`https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt`
    - 规则匹配时使用的情景模式：选第 1 步建好的代理服务器模式
-4. 同一页面底部把 **「默认情景模式」** 设为 **「直接连接」** —— 这是白名单的关键，未命中规则的请求全部直连。
+4. 同一页面底部把 **「默认情景模式」** 设为 **「直接连接」**。
 5. 点 **「立即更新规则列表」** ，确认状态显示更新成功且条数不为 0。
 6. 点浏览器工具栏上的扩展图标，选用该「自动切换」模式即可。
 

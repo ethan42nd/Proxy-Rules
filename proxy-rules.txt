@@ -1,6 +1,6 @@
 ! ------------------------------------------------------------------
-! Proxy Rules - 白名单清单（AutoProxy 格式）
-! 仅下列域名走代理，未命中规则的请求全部直连。
+! Proxy Rules - 黑名单模式（AutoProxy 格式）
+! 清单内域名走代理，其余请求直连。
 ! 在线地址：https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt
 ! ------------------------------------------------------------------
 
@@ -33,5 +33,5 @@
 ||github.io
 ||github.dev
 
-! in.mesl.cloud：精确匹配，仅 https，不含子域
+! in.mesl.cloud：单独匹配
 |https://in.mesl.cloud/*
