@@ -1,0 +1,46 @@
+! ------------------------------------------------------------------
+! Proxy Rules - 白名单清单（AutoProxy / SwitchyOmega 规则列表格式）
+!
+! 模式：白名单。仅下列域名走代理，未命中任何规则的请求全部直连。
+! 在线地址（SwitchyOmega「导入在线规则列表」直接填这一行）：
+! https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt
+!
+! 语法速查：
+!   ||example.com^    匹配 example.com 及其所有子域（本清单主要写法）
+!   |https://a.b^     以该串开头的 URL（用于精确匹配单个主机，不含子域）
+!   @@rule            强制直连（本清单默认即直连，一般无需使用）
+!   ! 或 # 开头       注释行
+! ------------------------------------------------------------------
+
+! ===== Google / YouTube：搜索、账号登录、视频与图片 CDN =====
+||google.com^
+||googleapis.com^
+||gstatic.com^
+||googleusercontent.com^
+||ggpht.com^
+||googlevideo.com^
+||recaptcha.net^
+||youtube.com^
+||youtu.be^
+||youtube-nocookie.com^
+||ytimg.com^
+||g.co^
+||goo.gl^
+
+! ===== X (Twitter)：站点、短链与媒体 CDN =====
+||x.com^
+||twitter.com^
+||t.co^
+||twimg.com^
+||pscp.tv^
+
+! ===== GitHub =====
+||github.com^
+||githubusercontent.com^
+||githubassets.com^
+||github.io^
+||github.dev^
+
+! ===== in.mesl.cloud：精确匹配（不含任何子域） =====
+|https://in.mesl.cloud^
+|http://in.mesl.cloud^
