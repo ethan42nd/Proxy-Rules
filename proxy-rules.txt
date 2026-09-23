@@ -33,5 +33,8 @@
 ||github.io
 ||github.dev
 
+! 沉浸式翻译（Immersive Translate）
+||immersivetranslate.com
+
 ! in.mesl.cloud：单独匹配
 |https://in.mesl.cloud/*
