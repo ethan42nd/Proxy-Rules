@@ -12,10 +12,15 @@ https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt
 
 ## 覆盖站点
 
-- Google / YouTube：搜索、账号登录，以及视频与图片所需的 CDN
-- X（Twitter）：站点、短链与媒体 CDN
-- GitHub：含 raw、头像等 CDN 与 GitHub Pages
-- `in.mesl.cloud`：单独匹配
+按分类管理，顺序如下：
+
+- **基础服务**：Google / YouTube（搜索、账号登录、视频与图片 CDN）、X（Twitter）、GitHub
+- **AI 服务**：OpenAI / ChatGPT / Sora、Claude、xAI / Grok、Perplexity、Cursor、OpenRouter、Notion 等
+- **通讯社交**：Telegram、Facebook / Instagram / WhatsApp、Discord、Reddit、LinkedIn
+- **流媒体与娱乐**：Netflix、Disney+ / Hulu / HBO Max / Prime Video、Spotify、Twitch、TikTok、Steam
+- **知识与其他常用站点**：维基百科、Medium、Quora、Pinterest、Pixiv、Tumblr、Imgur 等
+- **R18（成人内容）**：PornHub、Jable、JavDB、iwara、rule34 及其他常见成人站点
+- **个人单独规则**（始终放在最后）：沉浸式翻译、`in.mesl.cloud` 单独匹配
 
 ## 导入步骤（SwitchyOmega / ZeroOmega 通用）
 

@@ -4,6 +4,8 @@
 ! 在线地址：https://raw.githubusercontent.com/ethan42nd/Proxy-Rules/main/proxy-rules.txt
 ! ------------------------------------------------------------------
 
+! ========== 基础服务 ==========
+
 ! Google / YouTube：搜索、账号登录、视频与图片 CDN
 ||google.com
 ||googleapis.com
@@ -32,6 +34,186 @@
 ||githubassets.com
 ||github.io
 ||github.dev
+
+! ========== AI 服务 ==========
+
+! OpenAI / ChatGPT / Sora
+||openai.com
+||chatgpt.com
+||oaistatic.com
+||oaiusercontent.com
+||sora.com
+||ai.com
+
+! Anthropic / Claude
+||anthropic.com
+||claude.ai
+||claude.com
+||claudeusercontent.com
+
+! xAI / Grok
+||x.ai
+||grok.com
+
+! Perplexity
+||perplexity.ai
+||perplexity.com
+||pplx.ai
+
+! 其他 AI 工具：Cursor、OpenRouter、Notion、DeepMind
+||cursor.com
+||cursor.sh
+||cursor-cdn.com
+||openrouter.ai
+||notion.com
+||deepmind.com
+
+! ========== 通讯社交 ==========
+
+! Telegram：网页版、短链与 CDN
+||telegram.org
+||telegram.me
+||t.me
+||telesco.pe
+||telegra.ph
+||tdesktop.com
+||cdn-telegram.org
+||telegram-cdn.org
+||telegram.dog
+||tx.me
+
+! Facebook / Instagram / Threads / WhatsApp（Meta）
+||facebook.com
+||fb.com
+||fb.watch
+||fbcdn.net
+||fbsbx.com
+||instagram.com
+||cdninstagram.com
+||threads.net
+||whatsapp.com
+||whatsapp.net
+||wa.me
+
+! Discord
+||discord.com
+||discord.gg
+||discordapp.com
+||discordapp.net
+||discord.media
+
+! Reddit
+||reddit.com
+||redd.it
+||redditstatic.com
+||redditmedia.com
+
+! LinkedIn
+||linkedin.com
+||licdn.com
+
+! ========== 流媒体与娱乐 ==========
+
+! Netflix
+||netflix.com
+||nflxext.com
+||nflximg.com
+||nflximg.net
+||nflxvideo.net
+||nflxso.net
+
+! Disney+ / Hulu / HBO Max / Prime Video
+||disneyplus.com
+||dssott.com
+||bamgrid.com
+||hulu.com
+||hbo.com
+||hbomax.com
+||max.com
+||primevideo.com
+||amazonvideo.com
+
+! Spotify
+||spotify.com
+||scdn.co
+||pscdn.co
+||spoti.fi
+
+! Twitch
+||twitch.tv
+||twitchcdn.net
+||jtvnw.net
+
+! TikTok
+||tiktok.com
+||tiktokcdn.com
+||tiktokcdn-us.com
+||tiktokv.com
+||tiktokd.net
+||tiktokd.org
+||byteoversea.com
+||ibyteimg.com
+||ibytedtos.com
+||isnssdk.com
+||musical.ly
+
+! Steam
+||steampowered.com
+||steamcommunity.com
+||steamstatic.com
+||steamcontent.com
+||steamserver.net
+||s.team
+
+! ========== 知识与其他常用站点 ==========
+
+! 维基百科
+||wikipedia.org
+||wikimedia.org
+||wiktionary.org
+||wikiquote.org
+||wikimediafoundation.org
+
+! 社区 / 内容平台
+||medium.com
+||quora.com
+||pinterest.com
+||pinimg.com
+||pixiv.net
+||pximg.net
+||imgur.com
+||tumblr.com
+||archive.org
+||soundcloud.com
+||vimeo.com
+||dailymotion.com
+
+! ========== R18（成人内容）==========
+
+! PornHub
+||pornhub.com
+||pornhubpremium.com
+||phncdn.com
+
+! Jable / JavDB / iwara / rule34
+||jable.tv
+||javdb.com
+||iwara.tv
+||rule34.xxx
+||rule34.us
+
+! 其他常见成人站点
+||xvideos.com
+||xnxx.com
+||xhamster.com
+||hanime.tv
+||nhentai.net
+||e-hentai.org
+||exhentai.org
+||missav.com
+||dlsite.com
+
+! ========== 个人单独规则 ==========
 
 ! 沉浸式翻译（Immersive Translate）
 ||immersivetranslate.com
